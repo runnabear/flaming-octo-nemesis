@@ -59,7 +59,7 @@ function incrPath (path) {
 function writeResponse (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
   res.end([
-    'Hello, ' + user + '!',
+    'Hello, ' + user + '!!!!!!!!!!!',
     '',
     'Served on port ' + port,
     '',
